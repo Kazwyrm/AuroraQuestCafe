@@ -256,6 +256,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Table
       objectReference: {fileID: 0}
+    - target: {fileID: -5178661895559278292, guid: 39fc5a16945c59a46a2cbd9c91bdf037,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 539551849886306195, guid: 97810a4524fb4634a9d2ceeb8de6165a,
+        type: 3}
     - target: {fileID: -4216859302048453862, guid: 39fc5a16945c59a46a2cbd9c91bdf037,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -331,12 +337,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 32a977cf771e2034fbb66cc504738079, type: 2}
-    - target: {fileID: -5178661895559278292, guid: 39fc5a16945c59a46a2cbd9c91bdf037,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 539551849886306195, guid: 97810a4524fb4634a9d2ceeb8de6165a,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39fc5a16945c59a46a2cbd9c91bdf037, type: 3}
 --- !u!4 &39281712 stripped
@@ -446,6 +446,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -5178661895559278292, guid: fe767e27f9cc3a340ba8cfb129b8a3d5,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -3866049519001604545, guid: 9c574b21721a94640b2df8d2dc787545,
+        type: 3}
     - target: {fileID: -4216859302048453862, guid: fe767e27f9cc3a340ba8cfb129b8a3d5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -521,12 +527,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 903d20d29a51afb45b232789381c8e9b, type: 2}
-    - target: {fileID: -5178661895559278292, guid: fe767e27f9cc3a340ba8cfb129b8a3d5,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: -3866049519001604545, guid: 9c574b21721a94640b2df8d2dc787545,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe767e27f9cc3a340ba8cfb129b8a3d5, type: 3}
 --- !u!4 &144172308 stripped
@@ -984,6 +984,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair
       objectReference: {fileID: 0}
+    - target: {fileID: -5178661895559278292, guid: fe767e27f9cc3a340ba8cfb129b8a3d5,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -3866049519001604545, guid: 9c574b21721a94640b2df8d2dc787545,
+        type: 3}
     - target: {fileID: -4216859302048453862, guid: fe767e27f9cc3a340ba8cfb129b8a3d5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1059,12 +1065,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 903d20d29a51afb45b232789381c8e9b, type: 2}
-    - target: {fileID: -5178661895559278292, guid: fe767e27f9cc3a340ba8cfb129b8a3d5,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: -3866049519001604545, guid: 9c574b21721a94640b2df8d2dc787545,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe767e27f9cc3a340ba8cfb129b8a3d5, type: 3}
 --- !u!4 &493629072 stripped
@@ -1168,6 +1168,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Clock_polySurface202polySurface194
       objectReference: {fileID: 0}
+    - target: {fileID: -5178661895559278292, guid: 392008cbe3972684baea228c97c661f0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -7246519104792857503, guid: 4cdd64940a8bc8e4abf55966f0821593,
+        type: 3}
     - target: {fileID: -4216859302048453862, guid: 392008cbe3972684baea228c97c661f0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1243,12 +1249,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d54fed706ef08542af8b80bef934c57, type: 2}
-    - target: {fileID: -5178661895559278292, guid: 392008cbe3972684baea228c97c661f0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: -7246519104792857503, guid: 4cdd64940a8bc8e4abf55966f0821593,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 392008cbe3972684baea228c97c661f0, type: 3}
 --- !u!1001 &669674399
@@ -6380,6 +6380,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair
       objectReference: {fileID: 0}
+    - target: {fileID: -5178661895559278292, guid: fe767e27f9cc3a340ba8cfb129b8a3d5,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -3866049519001604545, guid: 9c574b21721a94640b2df8d2dc787545,
+        type: 3}
     - target: {fileID: -4216859302048453862, guid: fe767e27f9cc3a340ba8cfb129b8a3d5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6455,12 +6461,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 903d20d29a51afb45b232789381c8e9b, type: 2}
-    - target: {fileID: -5178661895559278292, guid: fe767e27f9cc3a340ba8cfb129b8a3d5,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: -3866049519001604545, guid: 9c574b21721a94640b2df8d2dc787545,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe767e27f9cc3a340ba8cfb129b8a3d5, type: 3}
 --- !u!4 &848192941 stripped
@@ -6481,6 +6481,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -5178661895559278292, guid: fe767e27f9cc3a340ba8cfb129b8a3d5,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -3866049519001604545, guid: 9c574b21721a94640b2df8d2dc787545,
+        type: 3}
     - target: {fileID: -4216859302048453862, guid: fe767e27f9cc3a340ba8cfb129b8a3d5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6556,12 +6562,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 903d20d29a51afb45b232789381c8e9b, type: 2}
-    - target: {fileID: -5178661895559278292, guid: fe767e27f9cc3a340ba8cfb129b8a3d5,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: -3866049519001604545, guid: 9c574b21721a94640b2df8d2dc787545,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe767e27f9cc3a340ba8cfb129b8a3d5, type: 3}
 --- !u!4 &850064380 stripped
@@ -6585,7 +6585,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 523b8ea7922e5eb4b8303d54f6f19965,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 523b8ea7922e5eb4b8303d54f6f19965,
         type: 3}
@@ -6777,6 +6777,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Table
       objectReference: {fileID: 0}
+    - target: {fileID: -5178661895559278292, guid: 39fc5a16945c59a46a2cbd9c91bdf037,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 539551849886306195, guid: 97810a4524fb4634a9d2ceeb8de6165a,
+        type: 3}
     - target: {fileID: -4216859302048453862, guid: 39fc5a16945c59a46a2cbd9c91bdf037,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6852,12 +6858,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 32a977cf771e2034fbb66cc504738079, type: 2}
-    - target: {fileID: -5178661895559278292, guid: 39fc5a16945c59a46a2cbd9c91bdf037,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 539551849886306195, guid: 97810a4524fb4634a9d2ceeb8de6165a,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39fc5a16945c59a46a2cbd9c91bdf037, type: 3}
 --- !u!4 &1013385788 stripped
@@ -8179,6 +8179,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -5178661895559278292, guid: fe767e27f9cc3a340ba8cfb129b8a3d5,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -3866049519001604545, guid: 9c574b21721a94640b2df8d2dc787545,
+        type: 3}
     - target: {fileID: -4216859302048453862, guid: fe767e27f9cc3a340ba8cfb129b8a3d5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8254,12 +8260,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 903d20d29a51afb45b232789381c8e9b, type: 2}
-    - target: {fileID: -5178661895559278292, guid: fe767e27f9cc3a340ba8cfb129b8a3d5,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: -3866049519001604545, guid: 9c574b21721a94640b2df8d2dc787545,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe767e27f9cc3a340ba8cfb129b8a3d5, type: 3}
 --- !u!4 &1548131476 stripped
@@ -8766,6 +8766,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair
       objectReference: {fileID: 0}
+    - target: {fileID: -5178661895559278292, guid: fe767e27f9cc3a340ba8cfb129b8a3d5,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -3866049519001604545, guid: 9c574b21721a94640b2df8d2dc787545,
+        type: 3}
     - target: {fileID: -4216859302048453862, guid: fe767e27f9cc3a340ba8cfb129b8a3d5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8841,12 +8847,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 903d20d29a51afb45b232789381c8e9b, type: 2}
-    - target: {fileID: -5178661895559278292, guid: fe767e27f9cc3a340ba8cfb129b8a3d5,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: -3866049519001604545, guid: 9c574b21721a94640b2df8d2dc787545,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe767e27f9cc3a340ba8cfb129b8a3d5, type: 3}
 --- !u!4 &1690228484 stripped
@@ -8867,6 +8867,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Table
       objectReference: {fileID: 0}
+    - target: {fileID: -5178661895559278292, guid: 39fc5a16945c59a46a2cbd9c91bdf037,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 539551849886306195, guid: 97810a4524fb4634a9d2ceeb8de6165a,
+        type: 3}
     - target: {fileID: -4216859302048453862, guid: 39fc5a16945c59a46a2cbd9c91bdf037,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8942,12 +8948,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 32a977cf771e2034fbb66cc504738079, type: 2}
-    - target: {fileID: -5178661895559278292, guid: 39fc5a16945c59a46a2cbd9c91bdf037,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 539551849886306195, guid: 97810a4524fb4634a9d2ceeb8de6165a,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39fc5a16945c59a46a2cbd9c91bdf037, type: 3}
 --- !u!4 &1721277380 stripped
