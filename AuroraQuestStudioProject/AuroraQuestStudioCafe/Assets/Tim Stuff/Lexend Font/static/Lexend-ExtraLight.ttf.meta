@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: b43a767ca2630ff46801a0c3cb0589a8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Lexend
+  fontNames:
+  - Lexend
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 172bb60368380a543a95c51941a4aa66, type: 3}
+  - {fileID: 12800000, guid: 0dd551948c5c5d742aa79976607d6770, type: 3}
+  - {fileID: 12800000, guid: 5c5ab7c46f1a0d440a45fd8c27e07f8d, type: 3}
+  - {fileID: 12800000, guid: 4fe8d51599f1dcc45add85f9af45b30a, type: 3}
+  - {fileID: 12800000, guid: 73ce057bd02d06e43b622b6b3adc3b09, type: 3}
+  - {fileID: 12800000, guid: 2ea044dbb31b66449813bc07da3cb82a, type: 3}
+  - {fileID: 12800000, guid: 1e6a766e9f2ed054691cddc76cea0ba0, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
