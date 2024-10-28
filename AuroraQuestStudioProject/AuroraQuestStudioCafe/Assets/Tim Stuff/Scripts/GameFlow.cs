@@ -8,6 +8,8 @@ public class GameFlow : MonoBehaviour
     public Text
         TextBox;
 
+    public GameObject textboxGO;
+
     bool 
         bNarration, 
         bOldMan;
@@ -17,10 +19,10 @@ public class GameFlow : MonoBehaviour
         OldMan      = "Old Man : ";
 
     string
-       line_1   =    " ",
-       line_2   =    " ",
-       line_3   =    " ",
-       line_4   =    " ",
+       line_1   =    "line 1 ",
+       line_2   =    "line 2 ",
+       line_3   =    "line 3 ",
+       line_4   =    "line 4 ",
        line_5   =    " ",
        line_6   =    " ",
        line_7   =    " ",
@@ -34,26 +36,36 @@ public class GameFlow : MonoBehaviour
 
     public float
         textTimer = 0,
-        fadeTimer = 30,
-        changeTimer = 60;
+        fadeTimer = 15,
+        changeTimer = 30;
 
     int lineNumber;
 
     // Start is called before the first frame update
     void Start()
     {
-        textTimer = 50;
+        textTimer = 20;
         currentSentence = line_1;
     }
 
     // Update is called once per frame
     void Update()
     {
-        textTimer *= Time.deltaTime;
+        textTimer += textTimer * Time.deltaTime * 0.2f;
 
-        if(textTimer >= changeTimer)
+        if(textTimer > changeTimer)
         {
-            LineChange(WhichLine(lineNumber));
+            textboxGO.SetActive(true);
+            TextBox.text = LineChange(WhichLine(lineNumber));
+            
+        }
+        else if(textTimer > fadeTimer)
+        {
+            textboxGO.SetActive(false);
+        }
+        else
+        {
+            TextBox.text = currentSentence;
         }
     }
 
@@ -62,13 +74,17 @@ public class GameFlow : MonoBehaviour
     /// switches the line that will show 
     /// </summary>
     /// <param name="comingUp"> what will be set as the next sentence </param>
-    void LineChange(string comingUp)
+    string LineChange(string comingUp)
     {
-        if (currentSentence != null)
+        if (comingUp != null)
         {
-            TextBox.GetComponent<Text>().text = currentSentence;
-        }
+            currentSentence = nextSentence;
+            textTimer = 1;
+            nextSentence = comingUp;
 
+            textTimer = 0.1f;
+        }
+        return currentSentence;
     }
 
     void FadeLine()
