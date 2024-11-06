@@ -8,7 +8,8 @@ public class GameFlow : MonoBehaviour
     public Text
         TextBox;
 
-    public GameObject textboxGO;
+    public GameObject 
+        textboxGO;
 
     bool 
         bNarration, 
@@ -35,7 +36,7 @@ public class GameFlow : MonoBehaviour
         nextSentence;
 
     public float
-        textTimer = 0,
+        textTimer,
         fadeTimer = 15,
         changeTimer = 30;
 
@@ -44,22 +45,29 @@ public class GameFlow : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        textTimer = 20;
         currentSentence = line_1;
     }
 
     // Update is called once per frame
     void Update()
     {
-        textTimer += textTimer * Time.deltaTime * 0.2f;
+        TextBoxTimer();
+    }
 
-        if(textTimer > changeTimer)
+
+    void TextBoxTimer()
+    {
+        textTimer += Time.deltaTime;
+        Debug.Log("Timer " + textTimer);
+
+        if (textTimer > changeTimer)
         {
             textboxGO.SetActive(true);
-            TextBox.text = LineChange(WhichLine(lineNumber));
-            
+            TextBox.text = lineNumber.ToString();
+            textTimer = 0;
+
         }
-        else if(textTimer > fadeTimer)
+        else if (textTimer > fadeTimer)
         {
             textboxGO.SetActive(false);
         }
@@ -68,7 +76,6 @@ public class GameFlow : MonoBehaviour
             TextBox.text = currentSentence;
         }
     }
-
 
     /// <summary>
     /// switches the line that will show 
@@ -79,10 +86,10 @@ public class GameFlow : MonoBehaviour
         if (comingUp != null)
         {
             currentSentence = nextSentence;
-            textTimer = 1;
+            
             nextSentence = comingUp;
-
-            textTimer = 0.1f;
+            lineNumber++;
+            
         }
         return currentSentence;
     }
